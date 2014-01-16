@@ -84,7 +84,7 @@ static inline layer_t* default_layer_stack_alloc( const layer_type_t* type )
  * \param type
  * \param layer
  */
-static inline void default_layer_stack_free( layer_type_t* type, layer_t* layer )
+static inline void default_layer_stack_free( const layer_type_t* type, layer_t* layer )
 {
     XI_UNUSED( type );
     XI_UNUSED( layer );
